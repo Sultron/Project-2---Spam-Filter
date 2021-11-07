@@ -8,6 +8,20 @@ In order to run the R scripts, the following packages needs to be installed
 - stringr
 - caret
 
+### Tip
+A quick way to install the R packages is to prepend this to one of the R scripts  
+`
+install.packages("caret")
+`\
+`
+install.packages("stringr")
+`\
+`
+install.packages("dplyer")
+`\
+`
+install.packages("tm")
+`
 ## How to train from a data file:
 Rscript training.R spam.csv spamOutput.txt hamOutput.txt
 
