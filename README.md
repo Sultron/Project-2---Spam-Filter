@@ -30,12 +30,12 @@ install.packages("dplyer")
 install.packages("tm")
 `
 ## How to train from a data file:
-Rscript training.R spam.csv spamOutput.txt hamOutput.txt
+`Rscript training.R spam.csv spamOutput.txt hamOutput.txt`
 
 where "spam.csv" is the name of the input file, "spamOutput.txt" is the output of the spam probability, and "hamOutput.txt" is the output of the ham probability
 
 ## How to classify from a data file:
- Rscript classify.R spam.csv classOutput.csv
+ `Rscript classify.R spam.csv classOutput.csv`
  
  where "spam.csv" is the name of the input file and "classOuput.csv" is the name of the output file to store the result
  
