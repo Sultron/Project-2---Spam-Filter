@@ -1,6 +1,13 @@
 # Project-2 Spam-Filter
 CS 482/682 - Artificial Intelligence
 
+### Training.R
+Trains dataset from .csv file and save to new file.
+
+### Classify.R
+Classifies new data from training file and testing .csv file.
+
+
 ## Required Packages
 In order to run the R scripts, the following packages needs to be installed
 - tm 
